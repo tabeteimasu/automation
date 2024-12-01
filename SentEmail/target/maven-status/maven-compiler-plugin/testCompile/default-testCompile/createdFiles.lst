@@ -1,0 +1,8 @@
+com/automation/tests/SignInAndGrantNTITests.class
+com/automation/tests/SignInNSentEmailTests.class
+com/automation/tests/LoginTests.class
+com/automation/tests/BaseTests.class
+com/automation/tests/RegisterCourseraTests.class
+com/automation/tests/RegisterNTITests.class
+com/automation/tests/RegisterHotmailTests.class
+com/automation/tests/RegisterNYTests.class

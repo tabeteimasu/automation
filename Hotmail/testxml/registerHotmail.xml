@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test name="Test">
+	<parameter name="email" value="coursera.100@coursera.com"></parameter>
+	<parameter name="password" value="455098730"></parameter>
+    <classes>
+	  <class name="com.automation.tests.RegisterHotmailTests"/>
+      <!--<class name="com.automation.tests.RegisterNTITests"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

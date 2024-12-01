@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T23:08:08 CST" name="Suite" finished-at="2024-11-14T12:04:40 CST" duration-ms="46591887">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T23:08:08 CST" name="Test" finished-at="2024-11-14T12:04:40 CST" duration-ms="46591887">
+      <class name="com.automation.tests.gameflipSoldAnalysisTests">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.automation.tests.gameflipSoldAnalysisTests@282003e1]" started-at="2024-11-13T23:08:08 CST" name="preSetup" finished-at="2024-11-13T23:08:08 CST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.gameflipSoldAnalysisTests@282003e1]" started-at="2024-11-13T23:08:08 CST" name="setup" finished-at="2024-11-13T23:08:10 CST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="analyse()[pri:0, instance:com.automation.tests.gameflipSoldAnalysisTests@282003e1]" started-at="2024-11-13T23:08:10 CST" name="analyse" finished-at="2024-11-14T12:04:40 CST" duration-ms="46590233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyse -->
+        <test-method is-config="true" signature="postTestAction(org.testng.ITestResult)[pri:0, instance:com.automation.tests.gameflipSoldAnalysisTests@282003e1]" started-at="2024-11-14T12:04:40 CST" name="postTestAction" finished-at="2024-11-14T12:04:40 CST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=analyse status=SUCCESS method=gameflipSoldAnalysisTests.analyse()[pri:0, instance:com.automation.tests.gameflipSoldAnalysisTests@282003e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestAction -->
+        <test-method is-config="true" signature="postTeardown()[pri:0, instance:com.automation.tests.gameflipSoldAnalysisTests@282003e1]" started-at="2024-11-14T12:04:40 CST" name="postTeardown" finished-at="2024-11-14T12:04:40 CST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTeardown -->
+      </class> <!-- com.automation.tests.gameflipSoldAnalysisTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

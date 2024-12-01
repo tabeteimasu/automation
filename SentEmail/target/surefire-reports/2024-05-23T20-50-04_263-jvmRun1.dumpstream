@@ -1,0 +1,13 @@
+# Created at 2024-05-23T20:50:55.240
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2024-05-23T20:50:55.252
+Unexpected IOException: 8,1,com.automation.tests.RegisterNTITests,postTestAction(com.automation.tests.RegisterNTITests),null,java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45187\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Mud.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.7'\002C java.version: '20'\000ADriver info: driver.version: RemoteWebDriver,null,java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45187\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Mud.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.7'\002C java.version: '20'\000ADriver info: driver.version: RemoteWebDriver,RegisterNTITests>BaseTests.postTestAction:82 \00BB WebDriver java.net.ConnectExcep...,org.openqa.selenium.WebDriverException: \000Ajava.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45187\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Mud.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.7'\002C java.version: '20'\000ADriver info: driver.version: RemoteWebDriver\000ACaused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45187\000ACaused by: java.net.ConnectException: Connection refused\000A
+
+

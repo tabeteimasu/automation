@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T22:04:50 CST" name="Suite" finished-at="2024-11-29T22:05:28 CST" duration-ms="37082">
+    <groups>
+    </groups>
+    <test started-at="2024-11-29T22:04:50 CST" name="Test" finished-at="2024-11-29T22:05:28 CST" duration-ms="37082">
+      <class name="com.automation.tests.RegisterHotmailTests">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.automation.tests.RegisterHotmailTests@12028586]" started-at="2024-11-29T22:04:50 CST" name="preSetup" finished-at="2024-11-29T22:04:50 CST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.RegisterHotmailTests@12028586]" started-at="2024-11-29T22:04:51 CST" name="setup" finished-at="2024-11-29T22:04:52 CST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignUp()[pri:0, instance:com.automation.tests.RegisterHotmailTests@12028586]" started-at="2024-11-29T22:04:52 CST" name="verifySignUp" finished-at="2024-11-29T22:05:28 CST" duration-ms="35144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUp -->
+        <test-method is-config="true" signature="postTestAction(org.testng.ITestResult)[pri:0, instance:com.automation.tests.RegisterHotmailTests@12028586]" started-at="2024-11-29T22:05:28 CST" name="postTestAction" finished-at="2024-11-29T22:05:28 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUp status=SUCCESS method=RegisterHotmailTests.verifySignUp()[pri:0, instance:com.automation.tests.RegisterHotmailTests@12028586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestAction -->
+        <test-method is-config="true" signature="postTeardown()[pri:0, instance:com.automation.tests.RegisterHotmailTests@12028586]" started-at="2024-11-29T22:05:28 CST" name="postTeardown" finished-at="2024-11-29T22:05:29 CST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTeardown -->
+      </class> <!-- com.automation.tests.RegisterHotmailTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
